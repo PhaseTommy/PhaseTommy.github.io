@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tommy.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/src/css/alienlearn.css" />
+    <script src="main.js"></script>
+    <script src="/src/js/Glider.js-master/glider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/js/Glider.js-master/glider.css">
+
+</head>
+
+<body>
+
+    <div class="content-wrapper">
+        <div class="nav-wrapper">
+            <nav class="navbar">
+                <ul>
+                    <li><a style="text-decoration: none; color: #202538;" href="index.html">Tommy.</a></li>
+                    <div class="right-side-nav">
+                        <li>
+                            <a>Work</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="text-screenshot-wrapper">
+            <h6>MOBILE INTERFACE CASE STUDY</h6>
+            <h1>UniApp - Mobile Interface</h1>
+
+            <div class="phase-bot-screenshot">
+                <img width="100%;" src="/src/images/UNIAPPHeader.png">
+            </div>
+        </div>
+
+        <div class="research-development">
+            <div class="narrow-text">
+                <div class="research-title">
+                    <h6>CHAPTER 1</h6>
+                    <h1>Research & <br> Development</h1>
+                </div>
+                <p id="research-body-text"> This project was birthed from my personal need for an application that
+                    managed my time for me, had all my results and grades in one place (with feedback) and a place to
+                    top up my balance on my university card on the go. <br>
+                    <br>
+                    Whilst this project was done solely for fun, I still hope to develop it into a working application
+                    in the future, as the premise behind the app is something that could be majorly beneficial to all
+                    university students, which is also avoided by lots of universities.<br>
+                    <br>
+                    In terms of competitiors, the one I am most familiar with is Blackboard, which whilst boasting lots
+                    of features fails to deliver on a mobile level, and at web level a lot of the time too. My negative
+                    experiences with this software are the main reasons behind my desire to create such an application.
+                </p>
+            </div>
+        </div>
+        <div class="glider-contain">
+            <div class="glider">
+                <div><img src="/src/images/UniAppDisplay.png"></div>
+                <div><img src="/src/images/UniAppDisplay2.png"></div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="research-development">
+            <div class="narrow-text">
+                <h6>CHAPTER 2</h6>
+                <h1>Colour Palette</h1>
+                <div class="colour-palette">
+
+                    <div class="dark-gunmetal">
+                        <img class="dark-gunmetal-image" src="/src/images/Aurometalsaurus.svg">
+                    </div>
+                    <div class="yankees-blue">
+                        <img class="yankees-blue-image" src="/src/images/Manatee.svg">
+                    </div>
+                    <div class="charcoal">
+                        <img class="charcoal-image" src="/src/images/Isabelline.svg">
+                    </div>
+                    <div class="UCLABlue">
+                        <img class="UCLABlue-image" src="/src/images/WhiteSmoke.svg">
+                    </div>
+                    <div class="medium-turquoise">
+                        <img class="medium-turquoise-image" src="/src/images/PurpleNavy.svg">
+                    </div>
+                    <div class="flash-white">
+                        <img class="flash-white-image" src="/src/images/CadetBlue.svg">
+                    </div>
+
+
+                </div>
+                <div class="colour-palette-info">
+                    <p id="research-body-text"> The colours were essential to the feel of this design. University can be
+                        a pretty lonely and depressing place, i didn't want this app to follow this trend. I used bright
+                        light colours to give the app a welcoming feel and to make it visually interesting, working on
+                        the premise that making something more visually appealing makes the task itself more appealing
+                        to complete.
+                        <br>
+                        <br>
+                        I especially like the 'Cadet Blue' which is ironically more green, it sets the tone for the main
+                        components of the app; such as the navbar and hamburger menu and provides a great contrast to
+                        the royal purple seen throughout the design.
+                        <br>
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="typeface-wrapper">
+            <h6>CHAPTER 3</h6>
+            <h1>Typeface</h1>
+            <div class="typeface-image-wrapper">
+                <img src="/src/images/SofiaPro.svg">
+                <p class="typeface-text" id="research-body-text"> Typeface choice was another carefully considered
+                    factor of the design process. A well-selected type can determine the direction of the design, and
+                    really complete or ruin a design (if done wrong). My typeface choice for this particular project is
+                    one of my favourite and most used fonts in user interface design, 'Sofia Pro'.
+                    <br>
+                    <br>
+                    Sofia Pro is a great interface font as it is geometric, using perfect circles to achieve softness
+                    and approachability. The geometric aspect of it allows the text to be easily read, an important
+                    factor in a language application. Not only this, but it is also a largely versatile font,
+                    effectively communicating at all different weight types, especially in its bold format; whilst also
+                    looking effective capitalised with a larger kerning.
+                    <br>
+
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="back-to-work">
+            <a href="index.html">
+                <img src="/src/images/BackArrow.svg">
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            // Mobile-first defaults
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            scrollLock: true,
+            dots: '#resp-dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            },
+            responsive: [{
+                // screens greater than >= 775px
+                breakpoint: 775,
+                settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150,
+                    duration: 0.25
+                }
+            }, {
+                // screens greater than >= 1024px
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    itemWidth: 150,
+                    duration: 0.25
+                }
+            }]
+        });
+    </script>
+
+</body>
+
+</html>

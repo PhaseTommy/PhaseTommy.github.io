@@ -1,0 +1,204 @@
+/* --------------------------- GENERAL --------------------------- */
+
+
+html {
+    box-sizing: border-box;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* --------------------------- NAVBAR --------------------------- */
+
+
+.content-wrapper {
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.nav-wrapper {
+
+    margin: 0 auto;
+}
+
+.navbar a {
+    display: inline;
+
+}
+
+.navbar {
+    margin-top: 25px;
+    color: #202538;
+    font-size: 16px !important;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 ! important;
+}
+
+.right-side-nav {
+    float: right;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+
+
+}
+
+li a {
+    padding-right: 20px;
+}
+
+/* --------------------------- NAVBAR --------------------------- */
+
+.phase-section {
+
+    margin-top: 130px;
+    color: #202538;
+}
+
+.text-screenshot-wrapper {
+    text-align: center;
+}
+
+h6 {
+    letter-spacing: 3.5px;
+    color: rgb(170, 170, 170);
+}
+
+.research-development {
+    background: #F1FBFA;
+    padding: 10px;
+}
+
+.narrow-text {
+    margin-left: 23vw;
+    margin-right: 23vw;
+}
+
+p {
+    color: rgb(189, 189, 189);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.glider {
+    margin-top: 100px;
+}
+
+.colour-palette {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.dark-gunmetal-image,
+.yankees-blue-image,
+.charcoal-image,
+.UCLABlue-image,
+.medium-turquoise-image,
+.flash-white-image {
+    box-shadow: 0px 30px 100px #D5D5D5;
+    border-radius: 15px;
+
+
+}
+
+.dark-gunmetal-image {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.yankees-blue-image {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.charcoal-image {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.UCLABlue-image {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.medium-turquoise-image {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.flash-white-image {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.colour-palette-info {
+    margin-top: 50px;
+
+}
+
+.typeface-wrapper {
+    background: white;
+    margin-left: 23vw;
+    margin-right: 23vw;
+    margin-top: 50px;
+}
+
+.typeface-image-wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.phase-sidebar {
+    position: fixed;
+    top: 35vh;
+    margin-left: 40px;
+}
+
+.back-to-work {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+}
+
+.typeface-text {
+    margin-top: 100px;
+}
+
+.research-title {
+    margin-bottom: 50px;
+}
+
+.phase-bot-screenshot {
+    margin-bottom: 50px;
+}

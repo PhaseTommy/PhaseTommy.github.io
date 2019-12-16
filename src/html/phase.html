@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tommy.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/src/css/phase.css" />
+    <script src="main.js"></script>
+    <script src="/src/js/Glider.js-master/glider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/js/Glider.js-master/glider.css">
+
+</head>
+
+<body>
+
+    <div class="content-wrapper">
+        <div class="nav-wrapper">
+            <nav class="navbar">
+                <ul>
+                    <li><a style="text-decoration: none; color: #202538;" href="index.html">Tommy.</a></li>
+                    <div class="right-side-nav">
+                        <li>
+                            <a>Work</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="text-screenshot-wrapper">
+            <h6>USER INTERFACE CASE STUDY</h6>
+            <h1>Phase Robotics - User Interface</h1>
+
+            <div class="phase-bot-screenshot">
+                <img width="60%;" src="/src/images/Phase Screenshot.png">
+            </div>
+        </div>
+
+        <div class="research-development">
+            <div class="narrow-text">
+                <div class="research-title">
+                    <h6>CHAPTER 1</h6>
+                    <h1>Research & <br> Development</h1>
+                </div>
+                <p id="research-body-text"> The approach to the user interface for Phase took careful planning and
+                    extensive research to reach the best design solution. It is a very specific product, and as such,
+                    the design philosophy must cohere with the users' needs. User engagement and success within the
+                    application is pivotal to design orientation. <br>
+                    <br>
+                    My research started looking at competition and what they have done to create a successful product
+                    with a satisfied and engaging community of users, that all contribute to success. A heavy emphasis
+                    on community collaboration puts even more emphasis on the user experience being thoroughly enjoyable
+                    and easy to use. <br>
+                    <br>
+                    The complexity of the application means that it is easy for the design to become crowded and
+                    confusing, something that is important to avoid for good user experience. This is why I created
+                    clear sections in the design demonstrated with visual elements, it breaks up the complexity and
+                    allows the user to easily digest the relevant information. </p>
+            </div>
+        </div>
+        <div class="glider-contain">
+            <div class="glider">
+                <div><img src="/src/images/Phase Robotics Basic Flow.png"></div>
+                <div><img src="/src/images/Phase Robotics Competition.png"></div>
+                <div><img src="/src/images/Phase Robotics Detailed Flow.png"></div>
+                <div><img src="/src/images/Phase Robotics User Base.png"></div>
+
+            </div>
+
+
+        </div>
+
+        <div class="research-development">
+            <div class="narrow-text">
+                <h6>CHAPTER 2</h6>
+                <h1>Colour Palette</h1>
+                <div class="colour-palette">
+
+                    <div class="dark-gunmetal">
+                        <img class="dark-gunmetal-image" src="/src/images/DarkGunmetalColourPalette.svg">
+                    </div>
+                    <div class="yankees-blue">
+                        <img class="yankees-blue-image" src="/src/images/YankeesBlue.svg">
+                    </div>
+                    <div class="charcoal">
+                        <img class="charcoal-image" src="/src/images/Charcoal.svg">
+                    </div>
+                    <div class="UCLABlue">
+                        <img class="UCLABlue-image" src="/src/images/UCLABlue.svg">
+                    </div>
+                    <div class="medium-turquoise">
+                        <img class="medium-turquoise-image" src="/src/images/MediumTurquoise.svg">
+                    </div>
+                    <div class="flash-white">
+                        <img class="flash-white-image" src="/src/images/FlashWhite.svg">
+                    </div>
+
+
+                </div>
+                <div class="colour-palette-info">
+                    <p id="research-body-text">
+                        The colour palette was determined by the clients' request for a dark theme. Dark themes can be
+                        interesting and visually unique, but they also come with limitations and things to consider;
+                        such as difficulty reading non-primary text elements, due to contrast issues. A darker tone can
+                        cause certain elements to get washed out in the design, such as buttons and other important
+                        elements.
+                        <br>
+                        <br>
+                        To compensate for the issues that can be had with a dark theme, I decided to use a blend of dark
+                        and light themes to create an interesting balance between colours that allow for easy viewing
+                        and accessibility.
+                        <br>
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="typeface-wrapper">
+            <h6>CHAPTER 3</h6>
+            <h1>Typeface</h1>
+            <div class="typeface-image-wrapper">
+                <img src="/src/images/ProximaNova.svg">
+                <p class="typeface-text" id="research-body-text"> Typeface choice was another carefully deliberated
+                    factor that took significant thought and usability testing. Initially, I wanted a typeface that was
+                    unique but still included the necessary components of modern interface design.
+                    <br>
+                    <br>
+
+                    Proxima Nova turned out to be the perfect choice for this interface as it has lots of visual quirks
+                    in varying stroke sizes on curved letters, whilst maintaining legibility and that classic modern
+                    interface typeface look. It was also important that it fits well with other fonts used throughout
+                    the website, and due to its excellent versatility, they can work in unison without looking out of
+                    place or neglected.
+                    <br>
+
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="back-to-work">
+            <a href="index.html">
+                <img src="/src/images/BackArrow.svg">
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            // Mobile-first defaults
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            scrollLock: true,
+            dots: '#resp-dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            },
+            responsive: [{
+                // screens greater than >= 775px
+                breakpoint: 775,
+                settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150,
+                    duration: 0.25
+                }
+            }, {
+                // screens greater than >= 1024px
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    itemWidth: 150,
+                    duration: 0.25
+                }
+            }]
+        });
+    </script>
+
+</body>
+
+</html>

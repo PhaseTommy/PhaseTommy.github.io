@@ -1,0 +1,145 @@
+/* --------------------------- GENERAL --------------------------- */
+
+
+html {
+    box-sizing: border-box;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* background: #F1FBFA; */
+}
+
+/* --------------------------- NAVBAR --------------------------- */
+
+
+.content-wrapper {
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.nav-wrapper {
+
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-top: 25px;
+    color: #202538;
+    font-size: 16px !important;
+
+}
+
+.navbar a {
+    display: inline;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 ! important;
+}
+
+.right-side-nav {
+    float: right;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+/* --------------------------- ABOUT SECTION --------------------------- */
+
+#tommy-large {
+    color: blue;
+}
+
+
+.about-wrapper {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+/* --------------------------- WORK SECTION --------------------------- */
+
+.work-section {
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.about-info {
+    color: #202538;
+    font-size: 60px;
+}
+
+.first-project {
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.phase-robotics-text {
+    position: absolute;
+    color: #202538;
+    bottom: 1px;
+    margin-left: 200px;
+    opacity: 0;
+    margin-bottom: 180px;
+
+}
+
+#phaseText {
+    background: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+#phaseLink {
+    text-decoration: none;
+    color: #202538;
+}
+
+.first-project:hover>#phaseText {
+    opacity: 1;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    /* ...and now for the proper property */
+    transition: .5s;
+
+
+
+}
+
+.back-to-work {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+}
+
+h6 {
+    letter-spacing: 3.5px;
+    color: rgb(170, 170, 170);
+}
+
+span {
+    color: #4ECDC4;
+}
